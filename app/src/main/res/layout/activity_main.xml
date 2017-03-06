@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="io.github.opuserzangying.mybillbooks_android.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/hintForSpendMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:text="@string/hintForSpendMoney"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_addItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hintForSpendMoney"
+            android:background="@color/color_buttons"
+            android:text="@string/text_addItem"
+            android:layout_marginTop="30sp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_getItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_addItem"
+            android:layout_marginTop="5sp"
+            android:background="@color/color_buttons"
+            android:text="@string/text_getItem"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_getItem"
+            android:layout_marginTop="5sp"
+            android:background="@color/color_buttons"
+            android:text="@string/text_exit"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

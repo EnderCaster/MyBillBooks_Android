@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyBillBooks_Android</string>
+    <string name="hintForSpendMoney">抵制不当消费，拒绝无用消费。\n
+注意支付安全，谨防上当受骗。\n
+适度消费益心，沉迷剁手伤身。\n
+合理安排收入，享受健康生活。</string>
+    <string name="text_addItem">记账</string>
+    <string name="text_getItem">查帐</string>
+    <string name="text_exit">退出</string>
 </resources>
